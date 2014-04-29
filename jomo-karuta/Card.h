@@ -11,7 +11,7 @@
 @interface Card : NSObject
 
 @property (nonatomic, strong) NSString *text;
-@property (nonatomic, strong) NSString *capitalInAlphabet;
+@property (nonatomic, strong) NSString *capital;
 
 - (NSString *)imageFile;
 

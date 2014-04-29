@@ -11,7 +11,7 @@
 @implementation Card
 
 - (NSString *) imageFile {
-    NSString *fileName = [NSString stringWithFormat:@"%@.jpg", self.capitalInAlphabet];
+    NSString *fileName = [NSString stringWithFormat:@"%@.jpg", self.capital];
     return fileName;
 }
 

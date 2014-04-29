@@ -20,15 +20,16 @@
 }
 
 - (void) initializeDefaultDataList {
-    [self addCardWithText:@"伊香保温泉 日本の名湯" capital:@"i"];
-    [self addCardWithText:@"老農 船津伝次平" capital:@"ro"];
-    [self addCardWithText:@"花山公園 つつじの名所" capital:@"ha"];
+    self.cards = [[NSMutableArray alloc] init];
+    [self addCardWithText:@"伊香保温泉 日本の名湯" capital:@"い"];
+    [self addCardWithText:@"老農 船津伝次平" capital:@"ろ"];
+    [self addCardWithText:@"花山公園 つつじの名所" capital:@"は"];
 }
 
 - (void) addCardWithText:(NSString *)cardText capital:(NSString *)cardCapital {
     Card* card = [[Card alloc] init];
     card.text = cardText;
-    card.capitalInAlphabet = cardCapital;
+    card.capital = cardCapital;
     [self.cards addObject:card];
 }
 

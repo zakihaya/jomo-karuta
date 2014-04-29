@@ -12,7 +12,7 @@
 
 @interface JomoKarutaDataController : NSObject
 
-@property (nonatomic, copy) NSMutableArray *cards;
+@property (nonatomic, strong) NSMutableArray *cards;
 
 - (Card *) findCardByCapital:(NSString *)capital;
 
