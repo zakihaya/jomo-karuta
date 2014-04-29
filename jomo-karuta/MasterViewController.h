@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class JomoKarutaDataController;
+
 @interface MasterViewController : UITableViewController
+
+@property (strong, nonatomic) JomoKarutaDataController *dataController;
 
 @end

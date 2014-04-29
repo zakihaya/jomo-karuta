@@ -40,6 +40,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    
+    self.cardImage.image = [UIImage imageNamed:@"a.jpg"];
 }
 
 - (void)didReceiveMemoryWarning
