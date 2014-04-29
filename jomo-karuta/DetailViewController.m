@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "Card.h"
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -16,10 +17,10 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setCard:(Card *)newCard
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if (_card != newCard) {
+        _card = newCard;
         
         // Update the view.
         [self configureView];
@@ -30,8 +31,9 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    if (self.card) {
+        self.cardImage.image = [UIImage imageNamed:[_card imageFile]];
+        self.navigationItem.title = _card.capital;
     }
 }
 
@@ -40,8 +42,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
-    
-    self.cardImage.image = [UIImage imageNamed:@"a.jpg"];
 }
 
 - (void)didReceiveMemoryWarning

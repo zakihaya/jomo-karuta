@@ -68,8 +68,8 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+        Card *object = self.dataController.cards[indexPath.row];
+        [[segue destinationViewController] setCard:object];
     }
 }
 
