@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@class Card;
 
-@property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UIImageView *cardImage;
+@interface DetailViewController : UITableViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) Card *card;
+
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end
