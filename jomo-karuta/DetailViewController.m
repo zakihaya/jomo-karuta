@@ -32,8 +32,9 @@
     // Update the user interface for the detail item.
 
     if (self.card) {
-        self.cardImage.image = [UIImage imageNamed:[_card imageFile]];
+        self.imageView.image = [UIImage imageNamed:[_card imageFile]];
         self.navigationItem.title = _card.capital;
+        self.textLabel.text = _card.text;
     }
 }
 

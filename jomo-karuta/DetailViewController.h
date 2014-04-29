@@ -10,10 +10,10 @@
 
 @class Card;
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UITableViewController
 
 @property (strong, nonatomic) Card *card;
 
-@property (weak, nonatomic) IBOutlet UIImageView *cardImage;
-
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end
