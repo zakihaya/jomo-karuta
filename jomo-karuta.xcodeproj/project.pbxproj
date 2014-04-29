@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346BF16D190F49FD00D1A519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346BF16C190F49FD00D1A519 /* Foundation.framework */; };
+		346BF16F190F49FD00D1A519 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346BF16E190F49FD00D1A519 /* CoreGraphics.framework */; };
+		346BF171190F49FD00D1A519 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346BF170190F49FD00D1A519 /* UIKit.framework */; };
+		346BF177190F49FD00D1A519 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 346BF175190F49FD00D1A519 /* InfoPlist.strings */; };
+		346BF179190F49FD00D1A519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 346BF178190F49FD00D1A519 /* main.m */; };
+		346BF17D190F49FD00D1A519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346BF17C190F49FD00D1A519 /* AppDelegate.m */; };
+		346BF180190F49FD00D1A519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346BF17E190F49FD00D1A519 /* Main.storyboard */; };
+		346BF183190F49FD00D1A519 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346BF182190F49FD00D1A519 /* MasterViewController.m */; };
+		346BF186190F49FD00D1A519 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346BF185190F49FD00D1A519 /* DetailViewController.m */; };
+		346BF188190F49FD00D1A519 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346BF187190F49FD00D1A519 /* Images.xcassets */; };
+		346BF18F190F49FD00D1A519 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346BF18E190F49FD00D1A519 /* XCTest.framework */; };
+		346BF190190F49FD00D1A519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346BF16C190F49FD00D1A519 /* Foundation.framework */; };
+		346BF191190F49FD00D1A519 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346BF170190F49FD00D1A519 /* UIKit.framework */; };
+		346BF199190F49FD00D1A519 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 346BF197190F49FD00D1A519 /* InfoPlist.strings */; };
+		346BF19B190F49FD00D1A519 /* jomo_karutaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 346BF19A190F49FD00D1A519 /* jomo_karutaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		346BF192190F49FD00D1A519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 346BF161190F49FD00D1A519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 346BF168190F49FD00D1A519;
+			remoteInfo = "jomo-karuta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		346BF169190F49FD00D1A519 /* jomo-karuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jomo-karuta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		346BF16C190F49FD00D1A519 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		346BF16E190F49FD00D1A519 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		346BF170190F49FD00D1A519 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		346BF174190F49FD00D1A519 /* jomo-karuta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jomo-karuta-Info.plist"; sourceTree = "<group>"; };
+		346BF176190F49FD00D1A519 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		346BF178190F49FD00D1A519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		346BF17A190F49FD00D1A519 /* jomo-karuta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jomo-karuta-Prefix.pch"; sourceTree = "<group>"; };
+		346BF17B190F49FD00D1A519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		346BF17C190F49FD00D1A519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		346BF17F190F49FD00D1A519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		346BF181190F49FD00D1A519 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		346BF182190F49FD00D1A519 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		346BF184190F49FD00D1A519 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		346BF185190F49FD00D1A519 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		346BF187190F49FD00D1A519 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		346BF18D190F49FD00D1A519 /* jomo-karutaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jomo-karutaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		346BF18E190F49FD00D1A519 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		346BF196190F49FD00D1A519 /* jomo-karutaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jomo-karutaTests-Info.plist"; sourceTree = "<group>"; };
+		346BF198190F49FD00D1A519 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		346BF19A190F49FD00D1A519 /* jomo_karutaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jomo_karutaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346BF166190F49FD00D1A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346BF16F190F49FD00D1A519 /* CoreGraphics.framework in Frameworks */,
+				346BF171190F49FD00D1A519 /* UIKit.framework in Frameworks */,
+				346BF16D190F49FD00D1A519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346BF18A190F49FD00D1A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346BF18F190F49FD00D1A519 /* XCTest.framework in Frameworks */,
+				346BF191190F49FD00D1A519 /* UIKit.framework in Frameworks */,
+				346BF190190F49FD00D1A519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346BF160190F49FD00D1A519 = {
+			isa = PBXGroup;
+			children = (
+				346BF172190F49FD00D1A519 /* jomo-karuta */,
+				346BF194190F49FD00D1A519 /* jomo-karutaTests */,
+				346BF16B190F49FD00D1A519 /* Frameworks */,
+				346BF16A190F49FD00D1A519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		346BF16A190F49FD00D1A519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346BF169190F49FD00D1A519 /* jomo-karuta.app */,
+				346BF18D190F49FD00D1A519 /* jomo-karutaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		346BF16B190F49FD00D1A519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				346BF16C190F49FD00D1A519 /* Foundation.framework */,
+				346BF16E190F49FD00D1A519 /* CoreGraphics.framework */,
+				346BF170190F49FD00D1A519 /* UIKit.framework */,
+				346BF18E190F49FD00D1A519 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		346BF172190F49FD00D1A519 /* jomo-karuta */ = {
+			isa = PBXGroup;
+			children = (
+				346BF17B190F49FD00D1A519 /* AppDelegate.h */,
+				346BF17C190F49FD00D1A519 /* AppDelegate.m */,
+				346BF17E190F49FD00D1A519 /* Main.storyboard */,
+				346BF181190F49FD00D1A519 /* MasterViewController.h */,
+				346BF182190F49FD00D1A519 /* MasterViewController.m */,
+				346BF184190F49FD00D1A519 /* DetailViewController.h */,
+				346BF185190F49FD00D1A519 /* DetailViewController.m */,
+				346BF187190F49FD00D1A519 /* Images.xcassets */,
+				346BF173190F49FD00D1A519 /* Supporting Files */,
+			);
+			path = "jomo-karuta";
+			sourceTree = "<group>";
+		};
+		346BF173190F49FD00D1A519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				346BF174190F49FD00D1A519 /* jomo-karuta-Info.plist */,
+				346BF175190F49FD00D1A519 /* InfoPlist.strings */,
+				346BF178190F49FD00D1A519 /* main.m */,
+				346BF17A190F49FD00D1A519 /* jomo-karuta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		346BF194190F49FD00D1A519 /* jomo-karutaTests */ = {
+			isa = PBXGroup;
+			children = (
+				346BF19A190F49FD00D1A519 /* jomo_karutaTests.m */,
+				346BF195190F49FD00D1A519 /* Supporting Files */,
+			);
+			path = "jomo-karutaTests";
+			sourceTree = "<group>";
+		};
+		346BF195190F49FD00D1A519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				346BF196190F49FD00D1A519 /* jomo-karutaTests-Info.plist */,
+				346BF197190F49FD00D1A519 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		346BF168190F49FD00D1A519 /* jomo-karuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346BF19E190F49FD00D1A519 /* Build configuration list for PBXNativeTarget "jomo-karuta" */;
+			buildPhases = (
+				346BF165190F49FD00D1A519 /* Sources */,
+				346BF166190F49FD00D1A519 /* Frameworks */,
+				346BF167190F49FD00D1A519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jomo-karuta";
+			productName = "jomo-karuta";
+			productReference = 346BF169190F49FD00D1A519 /* jomo-karuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		346BF18C190F49FD00D1A519 /* jomo-karutaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346BF1A1190F49FD00D1A519 /* Build configuration list for PBXNativeTarget "jomo-karutaTests" */;
+			buildPhases = (
+				346BF189190F49FD00D1A519 /* Sources */,
+				346BF18A190F49FD00D1A519 /* Frameworks */,
+				346BF18B190F49FD00D1A519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				346BF193190F49FD00D1A519 /* PBXTargetDependency */,
+			);
+			name = "jomo-karutaTests";
+			productName = "jomo-karutaTests";
+			productReference = 346BF18D190F49FD00D1A519 /* jomo-karutaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		346BF161190F49FD00D1A519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Toru Hayazaki";
+				TargetAttributes = {
+					346BF18C190F49FD00D1A519 = {
+						TestTargetID = 346BF168190F49FD00D1A519;
+					};
+				};
+			};
+			buildConfigurationList = 346BF164190F49FD00D1A519 /* Build configuration list for PBXProject "jomo-karuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 346BF160190F49FD00D1A519;
+			productRefGroup = 346BF16A190F49FD00D1A519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346BF168190F49FD00D1A519 /* jomo-karuta */,
+				346BF18C190F49FD00D1A519 /* jomo-karutaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346BF167190F49FD00D1A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346BF188190F49FD00D1A519 /* Images.xcassets in Resources */,
+				346BF177190F49FD00D1A519 /* InfoPlist.strings in Resources */,
+				346BF180190F49FD00D1A519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346BF18B190F49FD00D1A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346BF199190F49FD00D1A519 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		346BF165190F49FD00D1A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346BF17D190F49FD00D1A519 /* AppDelegate.m in Sources */,
+				346BF183190F49FD00D1A519 /* MasterViewController.m in Sources */,
+				346BF179190F49FD00D1A519 /* main.m in Sources */,
+				346BF186190F49FD00D1A519 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346BF189190F49FD00D1A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346BF19B190F49FD00D1A519 /* jomo_karutaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		346BF193190F49FD00D1A519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 346BF168190F49FD00D1A519 /* jomo-karuta */;
+			targetProxy = 346BF192190F49FD00D1A519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		346BF175190F49FD00D1A519 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346BF176190F49FD00D1A519 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		346BF17E190F49FD00D1A519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346BF17F190F49FD00D1A519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		346BF197190F49FD00D1A519 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346BF198190F49FD00D1A519 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		346BF19C190F49FD00D1A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		346BF19D190F49FD00D1A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		346BF19F190F49FD00D1A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jomo-karuta/jomo-karuta-Prefix.pch";
+				INFOPLIST_FILE = "jomo-karuta/jomo-karuta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		346BF1A0190F49FD00D1A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jomo-karuta/jomo-karuta-Prefix.pch";
+				INFOPLIST_FILE = "jomo-karuta/jomo-karuta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		346BF1A2190F49FD00D1A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jomo-karuta.app/jomo-karuta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jomo-karuta/jomo-karuta-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "jomo-karutaTests/jomo-karutaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		346BF1A3190F49FD00D1A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jomo-karuta.app/jomo-karuta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jomo-karuta/jomo-karuta-Prefix.pch";
+				INFOPLIST_FILE = "jomo-karutaTests/jomo-karutaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346BF164190F49FD00D1A519 /* Build configuration list for PBXProject "jomo-karuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346BF19C190F49FD00D1A519 /* Debug */,
+				346BF19D190F49FD00D1A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346BF19E190F49FD00D1A519 /* Build configuration list for PBXNativeTarget "jomo-karuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346BF19F190F49FD00D1A519 /* Debug */,
+				346BF1A0190F49FD00D1A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		346BF1A1190F49FD00D1A519 /* Build configuration list for PBXNativeTarget "jomo-karutaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346BF1A2190F49FD00D1A519 /* Debug */,
+				346BF1A3190F49FD00D1A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 346BF161190F49FD00D1A519 /* Project object */;
+}
